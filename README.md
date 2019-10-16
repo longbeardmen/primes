@@ -8,3 +8,16 @@ The task is to find all numbers in this range where square root of this number i
 >The first few prime numbers are 2, 3, 5, 7, 11, 13, 17, 19, 23 and 29.\
 >Numbers that have more than two factors are called composite numbers.\
 >The number 1 is neither prime nor composite.
+
+# Example
+
+```
+$ cd path/to/the/prime/repo
+$ g++ main.cpp && ./a.out
+Please enter start of range: 1
+Please enter end of range: 100
+4 is prime (sqrt is 2)
+9 is prime (sqrt is 3)
+25 is prime (sqrt is 5)
+49 is prime (sqrt is 7)
+```
